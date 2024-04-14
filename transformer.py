@@ -49,4 +49,10 @@ class MultiHeadAttention(nn.Module):
         self.output_layer = nn.Linear(head_size * att_size, hidden_size, bias=False)
         initialize_weights(self.output_layer)
 
-    def
+    def forward(self, q, k , v, mask, cache=None):
+        orig_q_size = q.size()
+
+        d_k = self.att_size
+        d_v = self.att_size
+        batch_size = q.size(0)
+

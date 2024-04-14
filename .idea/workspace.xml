@@ -48,9 +48,9 @@
     "Notification.DoNotAsk-Vcs Important Messages": "true",
     "Python.transformer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/project/DataScience/TransformerBn2En"
+    "last_opened_file_path": "E:/project/DataScience/TransformerBn2En",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
